@@ -1,8 +1,9 @@
 # cabocha-docker
-Cabocha image based on Debian.
-http://taku910.github.io/cabocha/
-It contains Mecab also.
-http://taku910.github.io/mecab/
+Cabocha image based on Debian.  
+http://taku910.github.io/cabocha/  
+
+It contains Mecab also.  
+http://taku910.github.io/mecab/  
 
 # Usage
 ## Cabocha
