@@ -16,12 +16,12 @@ ENV LANG=ja_JP.UTF-8
 RUN apt-get update \
     && apt-get install --no-install-recommends -q -y \
         # For compile
-        gcc g++ make bzip2 \
+        apt-utils gcc g++ make bzip2 \
         # For japanese input
-        locales \
+        locales locales-all \
     && echo "ja_JP.UTF-8 UTF-8" >> /etc/locale.gen \
     && locale-gen \
-    && update-locale \
+    && update-locale LANG=ja_JP.UTF-8 \
     && cd ${TMP_CABOCHA} \
     # CRF++
     # https://taku910.github.io/crfpp/#install
