@@ -7,7 +7,7 @@ http://taku910.github.io/mecab/
 
 # Usage
 ## Cabocha
-echo "太郎は花子が読んでいる本を次郎に渡した" | docker run --rm -i josjos7/cabocha-docker cabocha
+echo "太郎は花子が読んでいる本を次郎に渡した" | docker run --rm -i abe-ta/cabocha-docker cabocha
 
 ## Mecab
-echo "太郎は花子が読んでいる本を次郎に渡した" | docker run --rm -i josjos7/cabocha-docker mecab
+echo "太郎は花子が読んでいる本を次郎に渡した" | docker run --rm -i abe-ta/cabocha-docker mecab
